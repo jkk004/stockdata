@@ -19,12 +19,3 @@ plt.title("TSLA VS MSFT")
 plt.show()
 
 
-
-#df_ohlc = df['Adj Close'].resample('10D').ohlc()
-#df_volume = df['Volume'].resample('10D').sum()
-#df_ohlc.reset_index(inplace = True)
-#df_ohlc['Date'] = df_ohlc['Date'].map(mdates.date2num)
-
-#mpf(ax1,df_ohlc.values, width = 2)
-#ax2.fill_between(df_volume.index.map(mdates.date2num,df_volume.values,0))
-#mpf.plot(df_ohlc,type='candle')
