@@ -1,6 +1,8 @@
 # Stocks Project
 a long term project related to stocks
 
+![image](https://user-images.githubusercontent.com/62976976/81261970-d912ce00-8ff1-11ea-8169-9d82ca58bde1.png)
+
 -Seems like when Apple goes up or down, Microsoft does similarly
 ![image](https://user-images.githubusercontent.com/62976976/81231415-f7ec7280-8fa7-11ea-8e7d-74663af4e4de.png)
 
