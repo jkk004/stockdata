@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 from matplotlib import style
 import pandas as pd
 import pandas_datareader.data as web
-
 plt.style.use('ggplot')
 fig = plt.figure(figsize = [20,9])
 print("Pick a starting year: ")
@@ -24,7 +23,12 @@ df1 = web.DataReader(s2, 'yahoo', start,end)
 df1["Adj Close"].plot(label=s2.upper())
 df2 = (df1["Adj Close"] + df["Adj Close"])/2
 df2.plot(label = "Average")
+
+df3 = df["Adj Close"].rolling(window=100, min_periods = 0).mean()
+df3.plot(label = "100 Day MA of " + s1.upper())
+df4 = df1["Adj Close"].rolling(window=100, min_periods = 0).mean()
+df4.plot(label = "100 Day MA of " + s2.upper())
+
 plt.legend()
 plt.title(s1.upper() + " VS " + s2.upper())
-
 plt.show()
