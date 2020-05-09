@@ -1,5 +1,5 @@
 # Stocks Project
-a long term project related to stocks
+a long term project related to stocks (will casually update)
 
 ![image](https://user-images.githubusercontent.com/62976976/81261970-d912ce00-8ff1-11ea-8169-9d82ca58bde1.png)
 
